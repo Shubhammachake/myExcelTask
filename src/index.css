@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#nav {
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btns {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(72, 72, 233);
+  color: white;
+  border-radius: 15px;
+}
+.cont form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont form input {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(197, 241, 241);
+  border-radius: 15px;
+  text-align: center;
+  border: none;
+}
+.button-div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.groupbtn {
+  display: flex;
+  gap: 10px;
+}
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.grid-item {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item p {
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.div-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn-div {
+  display: flex;
+  gap: 10px;
+}
+
+nav {
+  background-color: aqua;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .btns {
+  margin-right: 100px;
+}
+
+tr,
+td {
+  text-align: center;
+}
